@@ -27,7 +27,7 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
-        "behavior": "./vendor/bin/phpunit --testdox",
+        "specification": "./vendor/bin/phpunit --testdox",
         "coverage": "./vendor/bin/phpunit --coverage-text"
     }
 }

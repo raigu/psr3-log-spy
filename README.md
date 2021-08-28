@@ -11,6 +11,6 @@ Spy implementing PSR-3 LoggerInterface for tests
 
 ```shell
 $ composer test
-$ composer behavior 
+$ composer specification 
 $ composer coverage
 ```
