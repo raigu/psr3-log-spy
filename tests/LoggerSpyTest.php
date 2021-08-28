@@ -23,6 +23,15 @@ final class LoggerSpyTest extends TestCase
     /**
      * @test
      */
+    public function detects_if_no_logging_was_called()
+    {
+        $sut = new LoggerSpy();
+        $this->assertFalse($sut->any());
+    }
+
+    /**
+     * @test
+     */
     public function detects_if_any_emergency_was_called()
     {
         $sut = new LoggerSpy();
