@@ -1,6 +1,6 @@
 <?php
 
-namespace TestDouble\Psr3;
+namespace Raigu\TestDouble\Psr3;
 
 use Psr\Log\AbstractLogger;
 use Psr\Log\LoggerInterface;

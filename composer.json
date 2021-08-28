@@ -1,5 +1,5 @@
 {
-    "name": "testdouble/psr3-spy",
+    "name": "raigu/psr3-log-spy",
     "description": "Spy of PSR-3 LoggerInterface for testing",
     "type": "library",
     "license": "MIT",
@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "TestDouble\\Psr3\\": "src/"
+            "Raigu\\TestDouble\\Psr3\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TestDouble\\Psr3\\": "tests/"
+            "Raigu\\TestDouble\\Psr3\\": "tests/"
         }
     },
     "require": {

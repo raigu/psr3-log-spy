@@ -1,10 +1,11 @@
-[![build](https://github.com/php-testdouble/psr3-spy/workflows/build/badge.svg)](https://github.com/php-testdouble/psr3-spy/actions)
+[![build](https://github.com/raigu/psr3-log-spy/workflows/build/badge.svg)](https://github.com/raigu/psr3-log-spy/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 
-# psr3-spy
+# psr3-log-spy
 
-Spy implementing PSR-3 LoggerInterface for tests
+An implementation of PSR-3 LoggerInterface for spying on a subject under test (SUT) to verify that the SUT is using the
+given logger.
 
 # Compatibility
 
@@ -13,7 +14,7 @@ Spy implementing PSR-3 LoggerInterface for tests
 # Usage
 
 ```php
-$spy = new \TestDouble\Psr3\LoggerSpy();
+$spy = new \Raigu\TestDouble\Psr3\LoggerSpy();
 
 $sut = new Foo($spy);
 $sut->bar();

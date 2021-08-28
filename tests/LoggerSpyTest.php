@@ -1,12 +1,12 @@
 <?php
 
-namespace TestDouble\Psr3;
+namespace Raigu\TestDouble\Psr3;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LogLevel;
 
 /**
- * @covers \TestDouble\Psr3\LoggerSpy
+ * @covers \Raigu\TestDouble\Psr3\LoggerSpy
  */
 final class LoggerSpyTest extends TestCase
 {
