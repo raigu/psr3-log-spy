@@ -11,6 +11,12 @@ given logger.
 
 *PHP 7.4, ^8.0
 
+# Install
+
+```shell
+$ composer require --dev raigu/psr3-log-spy
+```
+
 # Usage
 
 ```php
