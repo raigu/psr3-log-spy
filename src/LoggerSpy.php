@@ -5,6 +5,9 @@ namespace TestDouble\Psr3;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 
+/**
+ * I am a Logger. I spy on the caller. I can tell if caller has used me.
+ */
 final class LoggerSpy implements LoggerInterface
 {
     public function __construct()
