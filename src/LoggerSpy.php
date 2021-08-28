@@ -4,15 +4,19 @@ namespace TestDouble\Psr3;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
+use Psr\Log\NullLogger;
 
 /**
  * I am a Logger. I spy on the caller. I can tell if caller has used me.
  */
 final class LoggerSpy implements LoggerInterface
 {
-    public function __construct()
+    private LoggerInterface $logger;
+
+    public function __construct(LoggerInterface $logger = null)
     {
         $this->logs = [];
+        $this->logger = $logger ?? new NullLogger;
     }
 
     private array $logs;
@@ -60,6 +64,7 @@ final class LoggerSpy implements LoggerInterface
     public function log($level, $message, array $context = array())
     {
         $this->logs[] = [$level, $message, $context];
+        $this->logger->log($level, $message, $context);
     }
 
     private function anyOf($level): bool

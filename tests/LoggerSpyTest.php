@@ -99,4 +99,17 @@ final class LoggerSpyTest extends TestCase
         $sut->debug('Detailed debug information.');
         $this->assertTrue($sut->anyDebug());
     }
+
+    /**
+     * @test
+     */
+    public function can_spy_on_another_logger()
+    {
+        $spy = new LoggerSpy();
+        $sut = new LoggerSpy($spy);
+
+        $sut->info('Some interesting message');
+
+        $this->assertTrue($spy->anyInfo());
+    }
 }
