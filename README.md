@@ -1,3 +1,7 @@
+[![build](https://github.com/php-testdouble/psr3-spy/workflows/build/badge.svg)](https://github.com/php-testdouble/psr3-spy/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
 # psr3-spy
 
 Spy implementing PSR-3 LoggerInterface for tests
