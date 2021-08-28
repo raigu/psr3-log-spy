@@ -8,6 +8,16 @@
             "name": "Rait Kapp"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "TestDouble\\Psr3\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TestDouble\\Psr3\\": "tests/"
+        }
+    },
     "require": {
         "php": ">=7.4||^8.0",
         "psr/log": "^1.1"
