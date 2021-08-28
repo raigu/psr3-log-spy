@@ -1,0 +1,12 @@
+{
+    "name": "testdouble/psr3-spy",
+    "description": "Spy of PSR-3 LoggerInterface for testing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rait Kapp"
+        }
+    ],
+    "require": {}
+}
