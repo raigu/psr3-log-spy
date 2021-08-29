@@ -15,6 +15,9 @@ given logger.
 * PHP 7.4, ^8.0
 * psr/log ^1.1||2.0.0
 
+# Changes
+
+[./CHANGELOG.md](./CHANGELOG.md)
 
 # Install
 
