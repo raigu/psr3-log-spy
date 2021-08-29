@@ -1,4 +1,5 @@
 [![Latest Stable Version](http://poser.pugx.org/raigu/psr3-log-spy/v/stable)](https://packagist.org/packages/raigu/psr3-log-spy)
+[![Fallows SemVer](https://img.shields.io/badge/SemVer-2.0.0-green)](https://semver.org/spec/v2.0.0.html)
 [![build](https://github.com/raigu/psr3-log-spy/workflows/build/badge.svg)](https://github.com/raigu/psr3-log-spy/actions)
 [![codecov](https://codecov.io/gh/raigu/psr3-log-spy/branch/main/graph/badge.svg?token=9DD044TN72)](https://codecov.io/gh/raigu/psr3-log-spy)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
